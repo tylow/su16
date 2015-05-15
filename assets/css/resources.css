@@ -1,7 +1,10 @@
+.segment {
+    width: 80%;
+    margin: 0 auto;
+}
 .column {
     float: left;
-    margin: 5px;
-    width: 32%;
+    width: 50%;
 }
 .special {
     color: #29b336;
