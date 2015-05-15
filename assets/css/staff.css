@@ -37,13 +37,23 @@ td {
     margin: 0;
     padding: 0 10px 10px;
 }
-td > .text:nth-child(4) {
+.instructor td > .text:nth-child(2) {
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
     margin: 2px 0 4px;
 }
-td > .text:nth-child(3) {
+.instructor td > .text:nth-child(3) {
+    font-weight: 300;
+    font-size: 15px;
+}
+.staff td > .text:nth-child(3) {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 2px 0 4px;
+}
+.staff td > .text:nth-child(2) {
     font-weight: 300;
     font-size: 15px;
 }
