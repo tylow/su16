@@ -12,47 +12,20 @@ td {
     font-weight: 300;
     text-align: center;
     min-width: 80px;
-    padding: 0 10px;
+    padding: 5px 10px;
 }
-
 
 /* Calendar */
 .odd {
-    background-color: #DDD;
+    background-color: #ECECEC;
 }
-.curweek {
-    background-color: rgba(54, 167, 246, 0.4);
+.guest-lecture {
+    background-color: rgba(100, 170, 100, 1.0);
 }
-.emph1 {
-    background-color: #EEE;
+.guest-lecture a {
+    color: #ECECEC;
 }
-.emph2 {
-    background-color: #777;
+.guest-lecture a:hover {
     color: white;
 }
-.proj {
-    color: #4CBB17;
-}
 
-
-/* Google Calendars */
-.calendar {
-    text-align: center;
-    margin-top: 20px;
-}
-@media (min-width: 900px) {
-.curweek {
-    background-color: rgba(54, 167, 246, 0.4);
-}
-.curweek {
-    background-color: rgba(54, 167, 246, 0.4);
-}
-    .small-calendar {
-        display: none;
-    }
-}
-@media (max-width: 900px) {
-    .large-calendar {
-        display: none;
-    }
-}
